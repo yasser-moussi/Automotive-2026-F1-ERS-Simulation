@@ -8,10 +8,11 @@ A professional Python implementation of the 2026 Formula 1 Energy Recovery Syste
 
 ## 🚀 Features
 
+- **Embedded-Style Control Logic** - Frames derating / Superclip / Override as discrete control rules an ECU would implement
 - **Physics-Driven Lap Simulation** - 1D track model with corner braking, throttle, and drag at 0.01s resolution
-- **Full ERS Energy Bookkeeping** - Battery deploy/harvest against the 4 MJ energy window
-- **Multiple Deploy Strategies** - Qualifying, Race (balanced), Attack, Bank-and-Attack, Overtake
-- **Battery-Aware Top Speed** - Effective vmax interpolates between empty (341 km/h) and full-charge (355 km/h) battery
+- **Full ERS Energy Bookkeeping** - Battery deploy / harvest against the 4 MJ energy window
+- **Multiple Control Strategies** - Qualifying, Race (balanced), Attack, Bank-and-Attack, Overtake
+- **State-Dependant Top Speed** - Effective vmax interpolates between empty (341 km/h) and full-charge (355 km/h) battery
 - **Manual Override Modeling** - +0.5 MJ overtake burst with derating disabled up to true top speed
 - **Professional Telemetry Dashboard** - Dark F1-style 2x2 comparison plot rendered with matplotlib
 
