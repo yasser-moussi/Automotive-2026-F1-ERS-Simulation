@@ -26,7 +26,7 @@ A professional Python implementation of the 2026 Formula 1 Energy Recovery Syste
 
 ## 🔧 Model Overview
 
-![Strategy Comparison](strategy_comparison.png)
+![Strategy Comparison](Assets/strategy_comparison.png)
 
 ## 🛠️ Technical Implementation
 
