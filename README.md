@@ -93,10 +93,10 @@ F1-ERS-Simulation/
 
 ## 🎯 Key Results
 
-- **Qualifying Pace**: Fastest opening lap at 48.64s using maximum deploy with superclip recovery
+- **Energy Window Compliance**: Frames SOC staying inside the 4 MJ limit
+- **State-Dependent Performance**: Lap times as a function of state / control logic
 - **Race Balance**: Consistent ~49.9–50.0s laps while holding battery SoC roughly flat
-- **Attack Deploy**: Fast first lap (48.16s) from a pre-banked full battery, tailing off as charge depletes
-- **Energy Accounting**: ~31–35 MJ deployed vs ~31–33 MJ harvested per 5-lap stint across all strategies
+- **Energy Accounting**: ~31–35 MJ deployed vs ~31–33 MJ harvested per 5-lap stint framed as closed-loop control validation
 
 ## 📞 Contact
 
