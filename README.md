@@ -14,7 +14,6 @@ A professional Python implementation of the 2026 Formula 1 Energy Recovery Syste
 - **Multiple Control Strategies** - Qualifying, Race (balanced), Attack, Bank-and-Attack, Overtake
 - **State-Dependant Top Speed** - Effective vmax interpolates between empty (341 km/h) and full-charge (355 km/h) battery
 - **Manual Override Modeling** - +0.5 MJ overtake burst with derating disabled up to true top speed
-- **Professional Telemetry Dashboard** - Dark F1-style 2x2 comparison plot rendered with matplotlib
 
 ## 📊 System Performance
 
