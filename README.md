@@ -69,21 +69,21 @@ Automotive-2026-F1-ERS-Simulation/
 
 ### Installation
 **1. Clone the repository**
-   \`\`\`bash
+   ```bash
    git clone https://github.com/yasser-moussi/F1-ERS-Simulation.git
    cd F1-ERS-Simulation
-   \`\`\`
+   ```
 **2. Create a virtual environment and install dependencies**
-   \`\`\`bash
+   ```bash
    python -m venv .venv
    source .venv/bin/activate          # Windows: .venv\Scripts\activate
    pip install -r requirements.txt
-   \`\`\`
+   ```
 
 **3. Run the Simulation**
-   \`\`\`bash
+   ```bash
    python main.py
-   \`\`\`
+   ```
 
 **4. View the results**
 
