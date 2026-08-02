@@ -1,6 +1,6 @@
-# 2026 F1 ERS - Electric Strategy Simulator
+# 2026 F1 ERS - Electric Power Unit Demonstration
 
-A professional Python implementation of the 2026 Formula 1 Energy Recovery System (ERS) with physics-based lap simulation and strategy comparison.
+A professional Python implementation of the 2026 Formula 1 Energy Recovery System (ERS) modeling the power electronics and control logic behind a hybrid electric power unit.
 
 ![Python](https://img.shields.io/badge/Python-3.11-blue.svg)
 ![ERS](https://img.shields.io/badge/F1-ERS_Simulation-yellow.svg)
