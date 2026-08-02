@@ -70,8 +70,8 @@ Automotive-2026-F1-ERS-Simulation/
 ### Installation
 **1. Clone the repository**
    ```bash
-   git clone https://github.com/yasser-moussi/F1-ERS-Simulation.git
-   cd F1-ERS-Simulation
+   git clone https://github.com/yasser-moussi/Automotive-2026-F1-ERS-Simulation.git
+   cd Automotive-2026-F1-ERS-Simulation
    ```
 **2. Create a virtual environment and install dependencies**
    ```bash
