@@ -45,7 +45,7 @@ A professional Python implementation of the 2026 Formula 1 Energy Recovery Syste
 ## 📁 Project Structure
 
 ```text
-F1-ERS-Simulation/
+Automotive-2026-F1-ERS-Simulation/
 ├── 📁 Assets/
 │   └── strategy_comparison.png
 ├── 📄 config.py
