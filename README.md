@@ -31,10 +31,10 @@ A professional Python implementation of the 2026 Formula 1 Energy Recovery Syste
 ## 🛠️ Technical Implementation
 
 ### Core Algorithms
-- **1D Lap Simulator** - Corner-aware braking, throttle, and drag model marching the car around the track at fixed timestep
-- **Deploy Derating** - MGU power scales linearly to zero between 290–355 km/h, so batteries can't push past regulation top speed
-- **Superclip Harvesting** - Extended energy recovery above 250 km/h to recover charge after a deploy dump
-- **Seeded Lap Variation** - Reproducible tyre-wear drift and traffic jitter so stints are never a flat line
+- **Control Loop Timing** - Fixed 0.01s discrete cycle governing every braking, throttle, and deploy decision
+- **Deploy Derating** - Gain-scheduled MGU power, linearly zeroed between 290–355 km/h
+- **Superclip Harvesting** - State-triggered recovery activated above 250 km/h
+- **Deterministic Variation** - Seeded tyre-wear and traffic jitter for repeatable test conditions
 
 ### Monitoring Capabilities
 - Real-time speed, battery SoC, and lap time tracking across a 5-lap stint
