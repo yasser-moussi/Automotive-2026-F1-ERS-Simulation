@@ -38,9 +38,9 @@ A professional Python implementation of the 2026 Formula 1 Energy Recovery Syste
 
 ### Monitoring Capabilities
 - Real-time speed, battery SoC, and lap time tracking across a 5-lap stint
-- Deployed-vs-harvested energy accounting per strategy
+- Deployed-vs-harvested energy accounting per strat (Control Profile)
 - Bank-and-attack sequencing (conserve laps followed by an attack lap)
-- Side-by-side strategy comparison across all scenarios
+- Side-by-side performance comparison across all control profiles
 
 ## 📁 Project Structure
 
